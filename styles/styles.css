@@ -498,17 +498,11 @@
     }
 
     /* Stories Section */
-    
     .stories-section {
         padding: 20px;
     }
-
     .stories-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .story-card:first-child img {
-        height: 250px;
+        grid-template-columns: repeat(2, 1fr);
     }
     .story-1{
         display: none;
@@ -526,7 +520,6 @@
     .footer-brand {
         text-align: center;
     }
-
     .footer-links {
         flex-direction: column;
         gap: 2rem;
@@ -535,24 +528,5 @@
 
     .social-links {
         justify-content: center;
-    }
-}
-
-/* Additional responsive adjustments for very small screens */
-@media screen and (max-width: 480px) {
-    .banner-content h1 {
-        font-size: 2rem;
-    }
-
-    .title {
-        font-size: 2rem;
-    }
-
-    .stories-title {
-        font-size: 2rem;
-    }
-
-    .view-all-btn {
-        width: 100%;
     }
 }
